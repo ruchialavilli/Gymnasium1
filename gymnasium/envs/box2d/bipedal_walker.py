@@ -599,11 +599,11 @@ class BipedalWalker(gym.Env, EzPickle):
 
         terminated = False
         if self.game_over or pos[0] < 0:
-            print(' REWARD IS -50 ')
-            print(' REWARD IS -50 ')
-            print(' REWARD IS -50 ')
-            print(' REWARD IS -50 ')
-            reward = -50
+            print(' REWARD IS -200 ')
+            print(' REWARD IS -200 ')
+            print(' REWARD IS -200 ')
+            print(' REWARD IS -200 ')
+            reward = -200
             terminated = True
         if pos[0] > (TERRAIN_LENGTH - TERRAIN_GRASS) * TERRAIN_STEP:
             terminated = True
